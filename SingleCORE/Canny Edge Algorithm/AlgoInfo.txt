@@ -1,7 +1,26 @@
+In Edge Detection Algorithm,
+I have implemented total 5 algorithm,
+1) Canny Edge Detector ------ a) For Single Image (used opencv)
+                               b) For Multiple Images (without opencv)
+
+2) SOBEL Edge Detector ------- a) for Single Image Only
+                               b) For Multiple images (Not Implemented yet)
+           
+3) RGB SOBEL Edge Detector --------- a) For Single Image Only 
+                                     b) b) For Multiple images (Not Implemented yet)
+
+4) Laplassian Edge Detector  ------- a) For Single Image Only
+                                     b) For Multiple image (Not Implemented yet)
+
+5) Prewitt Edge Detector  -------   a) For Single Image Only
+                                    b) For multiple Image (Not Implemented yet
+
 CannyEdgeSingle.py --> File contain canny edge algorithm for single image. It uses OpenCV library.
 Try this new algo I just updated 16:41pm 02/05/2021. 
 
-CannyEdgeMultipleImg.py --> File contain Canny Edge Algorithm for multiple images. It does not use OpenCV.
-                            It is an proper step by step algorithm implementation. It will take some time to run because
-                            it alter image step by step in 4 phases as the algo is. Last image is output that we needed. 
+CannyEdgeMultipleImg.py --> File contain Canny Edge Algorithm for multiple images. It does not use OpenCV. It is an proper step by step algorithm implementation. It will take some time to run because it alter image step by step in 4 phases as the algo is. Last image is output that we needed. 
+                            
+
+
+
                             
