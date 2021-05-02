@@ -1,0 +1,9 @@
+This folder contain Smoothing algorithm.
+Basically it this code contain three smoothing algorithm
+
+1) Gaussian Blur 
+2) Median Blur 
+3) Bilateral Blur
+
+I wrote it using OpenCV so it is simple code to understand.
+I also attached output to this repo.
