@@ -1,0 +1,2 @@
+to run
+python main.py --images Path_To_data_set --procs 0
