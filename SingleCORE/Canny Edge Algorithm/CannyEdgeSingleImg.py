@@ -1,16 +1,14 @@
-import numpy as np
-import cv2 as cv
-from matplotlib import pyplot as plt
-img = cv.imread('house.jpg',0)
-edges = cv.Canny(img,50,50)
-plt.subplot(121)
-plt.imshow(img,cmap = 'gray')
-plt.title('Original Image')
-plt.xticks([])
-plt.yticks([])
-plt.subplot(122)
-plt.imshow(edges,cmap = 'gray')
-plt.title('Edge Image')
-plt.xticks([])
-plt.yticks([])
+import cv2
+import matplotlib.pyplot as plt
+
+# Open the image
+img = cv2.imread('house.jpg')
+
+# Apply Canny
+edges = cv2.Canny(img, 100, 200, 3, L2gradient=True)
+
+plt.figure()
+plt.title('House')
+plt.imsave('Canny_House.jpg', edges, cmap='gray')
+plt.imshow(edges, cmap='gray')
 plt.show()
