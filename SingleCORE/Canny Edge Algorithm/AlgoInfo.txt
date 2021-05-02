@@ -1,4 +1,5 @@
 CannyEdgeSingle.py --> File contain canny edge algorithm for single image. It uses OpenCV library.
+Try this new algo I just updated 16:41pm 02/05/2021. 
 
 CannyEdgeMultipleImg.py --> File contain Canny Edge Algorithm for multiple images. It does not use OpenCV.
                             It is an proper step by step algorithm implementation. It will take some time to run because
