@@ -1,11 +1,14 @@
 import cv2
 import matplotlib.pyplot as plt
 from pathlib2 import Path
+import time
+
+start = time.time()
 
 path = Path(".")
 
 path = path.glob("*.jpg")
-
+count = 0
 images = []
 
 for imagepath in path:
@@ -16,6 +19,11 @@ for imagepath in path:
     blur_img = cv2.GaussianBlur(imS, (3, 3), 0)
     laplacian = cv2.Laplacian(blur_img, cv2.CV_64F)
     plt.imshow(laplacian,cmap='gray')
-    plt.show()
+    count+=1
+    # plt.show()
+
+end = time.time()
+
+print("ImageCount = ",count,"\nTimeRequired =",end-start)
 
 
