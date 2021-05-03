@@ -1,0 +1,7 @@
+Check this folder for OPENCV EDGE DETECTION ALGORITHMs
+
+1) Canny Edge Detection
+2) Sobel Edge Detection
+3) Prewitt Edge Detection
+4) Laplacian Edge Detection
+
