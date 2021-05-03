@@ -1,10 +1,13 @@
 import cv2
 from pathlib2 import Path
+import time
+
+start = time.time()
 
 path = Path(".")
 
 path = path.glob("*.jpg")
-
+count=0
 images = []
 
 for imagepath in path:
@@ -18,6 +21,10 @@ for imagepath in path:
 
     # cv2.imshow("Sobel X", img_sobelx)
     # cv2.imshow("Sobel Y", img_sobely)
-    cv2.imshow("Sobel", img_sobel)
-
+    # cv2.imshow("Sobel", img_sobel)
+    count+=1
     cv2.waitKey(0)
+
+end = time.time()
+
+print("ImageCount = ",count,"\nTimeRequired =",end-start)
