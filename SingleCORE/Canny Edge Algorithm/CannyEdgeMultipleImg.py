@@ -147,13 +147,13 @@ def hysteresis_thresholding(img):
 
 input_path = "img/"
 output_path = "img/"
-img_name = ["house.jpg","building.jpg"]
+img_name = ["image_0001.jpg","image_0002.jpg","image_0005.jpg","image_0006.jpg"]
 
 # Load the input images
 for img in img_name:
     input_img = imageio.imread(input_path + img)
-    plt.imshow(input_img)
-    plt.show()
+   # plt.imshow(input_img)
+  #  plt.show()
 
     # Convert the image to grayscale
     gray_input_img = rgb2gray(input_img)
@@ -169,26 +169,26 @@ for img in img_name:
 
     # Compute edge strength
     grad_mag = gradient_mag(x_grad, y_grad)
-    plt.imshow(grad_mag, cmap=plt.get_cmap('gray'))
-    plt.show()
-    imageio.imwrite(output_path + "/img1_grad_mag.jpg", grad_mag, cmap='gray')
+    #plt.imshow(grad_mag, cmap=plt.get_cmap('gray'))
+    #plt.show()
+    #imageio.imwrite(output_path + "/img1_grad_mag.jpg", grad_mag, cmap='gray')
 
     # Compute direction of gradient
     grad_dir = np.degrees(np.arctan2(y_grad, x_grad))
-    plt.imshow(grad_dir, cmap=plt.get_cmap('gray'))
-    plt.show()
+    #plt.imshow(grad_dir, cmap=plt.get_cmap('gray'))
+    #plt.show()
     #imageio.imwrite(output_path + "/img2_grad_dir.jpg", grad_dir, cmap='gray')
 
     # Phase 2 : Non maximal suppression
     closest_dir = closest_dir_function(grad_dir)
     thinned_output = non_maximal_suppressor(grad_mag, closest_dir)
-    plt.imshow(thinned_output, cmap=plt.get_cmap('gray'))
-    plt.show()
+    #plt.imshow(thinned_output, cmap=plt.get_cmap('gray'))
+    #plt.show()
     #imageio.imwrite(output_path + "/img3_thinned.jpg", thinned_output, cmap='gray')
 
     # Phase 3 : Hysteresis Thresholding
     output_img = hysteresis_thresholding(thinned_output)
-    plt.imshow(output_img, cmap=plt.get_cmap('gray'))
-    plt.show()
-    #imageio.imwrite(output_path + "/img4_final_output.jpg", output_img, cmap='gray')
+    #plt.imshow(output_img, cmap=plt.get_cmap('gray'))
+    #plt.show()
+    imageio.imwrite(output_path + "/img4_final_output.jpg", output_img, cmap='gray')
 
