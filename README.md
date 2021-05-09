@@ -5,12 +5,12 @@ so that we can track each others progress
 
 Project Progress:
 
-SINGLE CORE
+1) SINGLE CORE
 
 
 
-MULTI CORE
+2) MULTI CORE
 
 
 
-GPU CORE
+3) GPU CORE
