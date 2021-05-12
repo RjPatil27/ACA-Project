@@ -3,6 +3,13 @@ ACA Project repo. \
 Add your codes in your own folder like single core, multicore and GPU. 
 so that we can track each others progress
 
+
+ALGORITHM IMPLEMENTED:
+1) EDGE DETECTION ALGORITHM
+    a) CANNY EDGE DETECTION ALGORITHM 
+    b) SOBEL EDGE DETECTION ALGORITHM
+
+
 Project Progress:
 
 1) SINGLE CORE
