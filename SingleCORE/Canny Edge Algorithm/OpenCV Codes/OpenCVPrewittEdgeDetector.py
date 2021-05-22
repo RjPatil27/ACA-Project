@@ -1,4 +1,5 @@
 import cv2
+import numpy as np
 from pathlib2 import Path
 import time
 
@@ -7,23 +8,25 @@ start = time.time()
 path = Path(".")
 
 path = path.glob("*.jpg")
-count=0
+
 images = []
+count = 0
 
 for imagepath in path:
     img = cv2.imread(str(imagepath))
     # imS = cv2.resize(img, (940, 600))
-    # images.append(img)
-    gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    blur_img = cv2.GaussianBlur(gray_img, (3, 3), 0)
-    img_sobelx = cv2.Sobel(blur_img, cv2.CV_8U, 0, 1, ksize=3)
-    img_sobely = cv2.Sobel(blur_img, cv2.CV_8U, 1, 0, ksize=3)
-    img_sobel = img_sobelx + img_sobely
+    # images.append(imS)
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    img_gaussian = cv2.GaussianBlur(gray, (3, 3), 0)
 
-    # cv2.imshow("Sobel X", img_sobelx)
-    # cv2.imshow("Sobel Y", img_sobely)
-    # cv2.imshow("Sobel", img_sobel)
-    # cv2.imwrite("SobelOP_" + str(count) + ".jpg", img_sobel)
+    kernelx = np.array([[1, 1, 1], [0, 0, 0], [-1, -1, -1]])
+    kernely = np.array([[-1, 0, 1], [-1, 0, 1], [-1, 0, 1]])
+    img_prewittx = cv2.filter2D(img_gaussian, -1, kernelx)
+    img_prewitty = cv2.filter2D(img_gaussian, -1, kernely)
+    # cv2.imshow("Prewitt", img_prewittx + img_prewitty)
+    # cv2.imwrite("SobelOP_" + str(count) + ".jpg", img_prewittx+img_prewitty)
+    # cv2.imwrite("VerticalmaskOP_" + str(count) + ".jpg", img_prewittx)
+    # cv2.imwrite("HorizontalmaskOP_" + str(count) + ".jpg",img_prewitty)
     count+=1
     cv2.waitKey(0)
 
