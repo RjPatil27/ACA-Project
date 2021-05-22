@@ -1,3 +1,0 @@
-to run
-python main.py --images Path_To_data_set --procs 0
-ex python main.py --images C:\Users\Admin\Desktop\Project\my\edit\code\sample --procs 0
