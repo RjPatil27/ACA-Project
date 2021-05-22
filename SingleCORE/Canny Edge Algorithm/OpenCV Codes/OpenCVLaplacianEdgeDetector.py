@@ -1,26 +1,26 @@
 import cv2
-import matplotlib.pyplot as plt
 from pathlib2 import Path
 import time
 
 start = time.time()
 
 path = Path(".")
-
 path = path.glob("*.jpg")
+
 count = 0
-images = []
+# images = []
 
 for imagepath in path:
     img = cv2.imread(str(imagepath))
-    imS = cv2.resize(img, (940, 600))
-    images.append(imS)
+    # imS = cv2.resize(img, (940, 600))
+    # images.append(img)
     gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     blur_img = cv2.GaussianBlur(gray_img, (3, 3), 0)
     laplacian = cv2.Laplacian(blur_img, cv2.CV_64F)
-    plt.imshow(laplacian,cmap='gray')
+    # plt.imshow(laplacian,cmap='gray')
+    # cv2.imwrite("Laplacian_" + str(count) + ".jpg", laplacian)
     count+=1
-    # plt.show()
+    cv2.waitKey(0)
 
 end = time.time()
 
