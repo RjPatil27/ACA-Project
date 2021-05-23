@@ -1,27 +1,26 @@
 import cv2
-import numpy as np
 from pathlib2 import Path
 import time
 
-start = time.time()
-
+#taking path of image files from the folder
 path = Path(".")
-
 path = path.glob("*.jpg")
-count=0
-# images = []
+count = 0
+totalTime = 0
 
+#loop for getting one by one image file as input for CANNY algorithm
 for imagepath in path:
-    img = cv2.imread(str(imagepath))
-    # imS = cv2.resize(img, (940, 600))
-    # images.append(img)
-    gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    blur_img = cv2.GaussianBlur(gray_img, (3, 3), 0)
+    # imread() reads single image from folder
+    start = time.time()
+    img = cv2.imread(str(imagepath), cv2.IMREAD_GRAYSCALE)
+    # GaussianBlur() function convert image into Blur image which reduce noise from the image.
+    blur_img = cv2.GaussianBlur(img, (3, 3), 0)
+    # Canny() function from OpenCV applies Canny algorithm on Gaussian Image.
     img_canny = cv2.Canny(blur_img,50,100)
+    totalTime = totalTime + time.time() - start
     # cv2.imshow("Canny", img_canny)
     # cv2.imwrite("OP"+str(count)+".jpg",img_canny)
     count+=1
     cv2.waitKey(0)
 
-end = time.time()
-print("ImageCount = ",count,"\nTimeRequired =",end-start)
+print("ImageCount = ",count,"\nTimeRequired =", totalTime)
