@@ -1,8 +1,6 @@
 # ACA-Project
 
-# Exploiting Parallelism in Image Processing
-
-# Algorithms
+# Exploiting Parallelism in Image Processing Algorithms
 
 ## RAJAT PATIL
 
