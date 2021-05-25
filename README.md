@@ -26,7 +26,8 @@ University of Maryland Baltimore Cty
 Baltimore, Maryland
 nilayf1@umbc.edu
 ```
-Abstract—Various industries such as Computer Vision, Video
+## Abstract
+Various industries such as Computer Vision, Video
 Processing, Microscopic Imaging, Security Systems, Industrial
 Manufacturing uses Digital Image Processing. Many image
 processing applications require real-time image processing and
