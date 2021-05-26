@@ -229,15 +229,16 @@ ing:
     assigning a label to an object based on its descriptors,
     such as ”apple.”
 
+
+### E. DIP PROCESS FLOW
 ```
-E. DIP PROCESS FLOW
 The simple diagram for understanding the digital image
 processing working flow is given in [fig 2],
 ```
-
 ```
 Fig. 2. Digital Image Processing process flow
 ```
+
 ### F. NEED OF AN DIGITAL IMAGE PROCESSING?
 
 Image processing is often regarded as arbitrary image ma-
