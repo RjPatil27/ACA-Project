@@ -53,7 +53,7 @@ Index Terms—Image Processing, Image Processing algorithm,
 Single-core, Multi-core, GPU, CUDA, NVIDIA, OpenCV, Multi-
 Processing, Computer architecture
 
-## I. INTRODUCTION
+### I. INTRODUCTION
 Image processing algorithms are well-known for being com-
 putationally expensive and time-consuming. Although central
 processing units (CPUs) nowadays are capable and powerful
@@ -93,7 +93,7 @@ performance evaluation using a single-core approach and a
 multi-core approach.
 ```
 
-## II. MOTIVATION
+### II. MOTIVATION
 ```
 As mentioned earlier, CPUs nowadays are powerful and
 capable enough to perform digital image processing. However,
@@ -106,8 +106,9 @@ competitive outcomes than single-core CPU implementations.
 The use of multi-core architecture can obtain cost-effective
 and energy-efficient implementations of image algorithms.
 ```
+
+### III. DIGITAL IMAGE PROCESSING
 ```
-III. DIGITAL IMAGE PROCESSING
 Digital image processing is the method of manipulating
 digital images using a computer. It is a signal and systems
 sub-field that focuses primarily on images. DIP focuses on
