@@ -3,7 +3,6 @@
 # Exploiting Parallelism in Image Processing Algorithms
 
 ## RAJAT PATIL
-
 ```
 Department of CSEE
 University of Maryland Baltimore Cty
@@ -11,7 +10,6 @@ Baltimore, Maryland
 vk17971@umbc.edu
 ```
 ## ROHIT MOKASHI
-
 ```
 Department of CSEE
 University of Maryland Baltimore Cty
@@ -19,7 +17,6 @@ Baltimore, Maryland
 rohitm3@umbc.edu
 ```
 ## NILAY FURSULE
-
 ```
 Department of CSEE
 University of Maryland Baltimore Cty
@@ -56,7 +53,7 @@ Index Terms—Image Processing, Image Processing algorithm,
 Single-core, Multi-core, GPU, CUDA, NVIDIA, OpenCV, Multi-
 Processing, Computer architecture
 
-I. INTRODUCTION
+## I. INTRODUCTION
 Image processing algorithms are well-known for being com-
 putationally expensive and time-consuming. Although central
 processing units (CPUs) nowadays are capable and powerful
@@ -95,8 +92,9 @@ core CPU, and GPU. Finally, this paper aims to provide the
 performance evaluation using a single-core approach and a
 multi-core approach.
 ```
+
+## II. MOTIVATION
 ```
-II. MOTIVATION
 As mentioned earlier, CPUs nowadays are powerful and
 capable enough to perform digital image processing. However,
 using single-core CPUs to perform computationally expensive
