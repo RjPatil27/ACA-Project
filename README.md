@@ -282,13 +282,11 @@ The Canny edge detection algorithm is composed of 5 steps:
 1) Noise reduction
 2) Gradient calculation
 3) Non-maximum suppression
-
-```
 4) Double threshold
 5) Edge Tracking by Hysteresis
 After applying these steps, [fig 3] shows original image and
 [fig 4] shows canny image output.
-```
+
 ```
 Fig. 3. ORIGINAL IMAGE
 ```
