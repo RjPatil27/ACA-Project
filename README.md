@@ -300,8 +300,9 @@ converted to gray-scale images. As a result, before proceeding
 with the above steps, you must first convert the picture to
 gray-scale.
 ```
-```
+
 2) SOBEL EDGE DETECTION ALGORITHM:The Sobel
+```
 Edge Detection algorithm is an image edge detection algo-
 rithm that employs the Sobel operator. Irwin Sobel and Gary
 Feldman are the creators. The Sobel operator is based on
@@ -341,6 +342,7 @@ detection algorithm. As a result, before proceeding with the
 above steps, you must first convert the picture to gray-scale.
 
 3) LAPLACIAN EDGE DETECTION ALGORITHM: The
+```
 Laplacian Edge Detection algorithm uses the Laplacian Oper-
 ator to detect edges. Second derivative operators are used to
 detect Laplacian edges. It only has one kernel. The Laplacian
@@ -349,7 +351,7 @@ The kernel used in Laplacian edge detection is shown below
 in [fig 7],
 We can use one of these, or we can construct a 5*5 kernel
 for a better approximation. Due to the fact that we are dealing
-
+```
 ```
 Fig. 7. Laplacian kernels example
 ```
@@ -368,9 +370,10 @@ Fig. 8. LAPLACIAN IMAGE OUTPUT
 Laplacians are computationally faster and can achieve
 excellent results in certain cases.
 ```
+
+4) PREWITT EDGE DETECTION ALGORITHM:
 ```
-4) PREWITT EDGE DETECTION ALGORITHM:The Pre-
-witt Edge Detection Algorithm is an image edge detection
+The Prewitt Edge Detection Algorithm is an image edge detection
 algorithm that employs the Prewitt operator. The Prewitt
 operator distinguishes between two types of edges: horizontal
 and vertical.
@@ -382,18 +385,14 @@ signal changes. As a result, these operators are also known as
 derivative masks or derivative operators.
 The following properties should be present in all derivative
 marks:
-```
 - The mask should have the opposite sign.
 - The sum of the masks should be zero.
-
-
 - More weight translates to better edge detection.
 The Prewitt operator gives us two masks: one for detecting
 horizontal edges and the other for detecting vertical edges.
-
+```
 VERTICAL DIRECTION MASK:
 
-```
 Example of vertical direction mask is given in [fig 9].
 ```
 ```
