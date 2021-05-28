@@ -30,9 +30,9 @@ Industrial Manufacturing uses Digital Image Processing. Many image processing ap
 real-time image processing and analysis. It is very well known that image processing algorithms are \
 resource-intensive and time-consuming.  Although CPUs nowadays are capable and powerful enough; \
 performing image processing on a single-core CPU is uneconomical. For the last few years, \
-there has been a new trend of  using multi-core architecture for performing image processing by \n
+there has been a new trend of  using multi-core architecture for performing image processing by \
 exploiting parallelism in algorithms. The increasing computing power and programmability of \
-multi-core architectures offer promising opportunities for parallelizing image processing algorithms. \ 
+multi-core architectures offer promising opportunities for parallelizing image processing algorithms. \
 Significant performance gains over traditional CPU implementations can be achieved by taking advantage \
 of the data, thread, and instruction parallelism offered by modern multi-core hardware. \
 In this paper, we provide multi-core architecture-based methods to parallelize different image processing \
@@ -40,7 +40,7 @@ algorithms. First, this paper will briefly describe some image processing algori
 systems used for performing image processing. Later, it will elaborate on the single-core CPU, multi-core \
 CPU, and the GPU-based approaches for image processing. Finally, this report will provide a detailed \
 experimental analysis of the performance of different image processing algorithms by using \
-the approaches mentioned above. Index Terms—Image Processing, Image Processing algorithm, Single-core, \ 
+the approaches mentioned above. Index Terms—Image Processing, Image Processing algorithm, Single-core, \
 Multi-core, GPU, CUDA, NVIDIA, OpenCV, Multi-Processing, Computer architecture. 
 
 ---
