@@ -46,43 +46,34 @@ Multi-core, GPU, CUDA, NVIDIA, OpenCV, Multi-Processing, Computer architecture.
 ---
 
 ### I. INTRODUCTION
-```
-Image processing algorithms are well-known for being com-
-putationally expensive and time-consuming. Although central
-processing units (CPUs) nowadays are capable and powerful
-enough, performing image processing on a single-core CPU
-is uneconomical. As a result, over the last few decades, there
-has been a growing interest in developing and using multi-
-core architectures for image processing. Compared to central
-processing units (CPUs), we can get adequate acceleration
-by using multi-core architecture to accelerate numerically
-intensive image processing algorithms.
-Image processing algorithms are categorized as low-level,
-intermediate-level, or high-level image processing based on
-the output generated [23]. In low-level image processing, the
-input provided to the algorithm is an image, and the output
-generated is also an image. Smoothing, Sharpening, Filtering
-are examples of low-level image processing. In intermediate-
-level image processing, the input provided to the algorithm is
-an image, and the output is the attributes of an image. Motion
-Analysis, Object labeling are examples of intermediate-level
-image processing. In high-level image processing, the input
-provided to the algorithm is an image, and the output is the un-
-derstanding of an image. Scene Understanding, Autonomous
-Navigation are examples of high-level image processing.
-The low-level image processing requires working on indi-
-vidual pixels, and the input image data is spatially localized.
-Due to this, low-level image processing offers fine-grained
-parallelism. Hence, in this paper, our focus will be on low-
-level image processing algorithms. First, this paper will briefly
-describe low-level image processing algorithms and details of
-the systems used for performing image processing. Further,
-this paper will elaborate on the experimental analysis con-
-ducted by using three architectures: single-core CPU, multi-
-core CPU, and GPU. Finally, this paper aims to provide the
-performance evaluation using a single-core approach and a
-multi-core approach.
-```
+---
+Image processing algorithms are well-known for being computationally expensive 
+and time-consuming. Although central processing units (CPUs) nowadays are capable
+and powerful enough, performing image processing on a single-core CPU is 
+uneconomical. As a result, over the last few decades, there has been a growing 
+interest in developing and using multi-core architectures for image processing. 
+Compared to central processing units (CPUs), we can get adequate acceleration
+by using multi-core architecture to accelerate numerically intensive image processing 
+algorithms. Image processing algorithms are categorized as low-level, intermediate-level, 
+or high-level image processing based on the output generated [23]. 
+In low-level image processing, the input provided to the algorithm is an image, and the output
+generated is also an image. Smoothing, Sharpening, Filtering are examples of low-level 
+image processing. In intermediate-level image processing, the input provided to the 
+algorithm is an image, and the output is the attributes of an image. Motion Analysis, 
+Object labeling are examples of intermediate-level image processing. In high-level 
+image processing, the input provided to the algorithm is an image, and the output 
+is the understanding of an image. Scene Understanding, Autonomous Navigation are 
+examples of high-level image processing. The low-level image processing requires 
+working on individual pixels, and the input image data is spatially localized.
+Due to this, low-level image processing offers fine-grained parallelism. 
+Hence, in this paper, our focus will be on low-level image processing algorithms. 
+First, this paper will briefly describe low-level image processing algorithms and details of
+the systems used for performing image processing. Further,this report will elaborate 
+on the experimental analysis conducted by using three architectures: single-core CPU, multi-
+core CPU, and GPU. Finally, this paper aims to provide the performance evaluation using 
+a single-core approach and a multi-core approach.
+
+---
 
 ### II. MOTIVATION
 ```
