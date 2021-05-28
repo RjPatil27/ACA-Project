@@ -1,6 +1,6 @@
 # ACA-Project
 
-# + Exploiting Parallelism in Image Processing Algorithms
+# Exploiting Parallelism in Image Processing Algorithms
 
 ## RAJAT PATIL
 ```
@@ -76,7 +76,8 @@ a single-core approach and a multi-core approach.
 ---
 
 ### II. MOTIVATION
-```
+---
+
 As mentioned earlier, CPUs nowadays are powerful and
 capable enough to perform digital image processing. However,
 using single-core CPUs to perform computationally expensive
@@ -87,7 +88,8 @@ has become an essential strategy for achieving better and more
 competitive outcomes than single-core CPU implementations.
 The use of multi-core architecture can obtain cost-effective
 and energy-efficient implementations of image algorithms.
-```
+
+---
 
 ### III. DIGITAL IMAGE PROCESSING
 ```
