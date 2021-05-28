@@ -24,6 +24,7 @@ Baltimore, Maryland
 nilayf1@umbc.edu
 ```
 ## Abstract
+```
 Various industries such as Computer Vision, Video
 Processing, Microscopic Imaging, Security Systems, Industrial
 Manufacturing uses Digital Image Processing. Many image
@@ -52,8 +53,10 @@ the approaches mentioned above.
 Index Terms—Image Processing, Image Processing algorithm,
 Single-core, Multi-core, GPU, CUDA, NVIDIA, OpenCV, Multi-
 Processing, Computer architecture
+```
 
 ### I. INTRODUCTION
+```
 Image processing algorithms are well-known for being com-
 putationally expensive and time-consuming. Although central
 processing units (CPUs) nowadays are capable and powerful
@@ -70,8 +73,6 @@ the output generated [23]. In low-level image processing, the
 input provided to the algorithm is an image, and the output
 generated is also an image. Smoothing, Sharpening, Filtering
 are examples of low-level image processing. In intermediate-
-
-```
 level image processing, the input provided to the algorithm is
 an image, and the output is the attributes of an image. Motion
 Analysis, Object labeling are examples of intermediate-level
