@@ -24,7 +24,7 @@ Baltimore, Maryland
 nilayf1@umbc.edu
 ```
 ## Abstract
-Various industries such as Computer Vision, Video Processing, Microscopic Imaging, Security Systems, 
+Various industries such as Computer Vision, Video Processing, Microscopic Imaging, Security Systems, \
 Industrial Manufacturing uses Digital Image Processing. Many image processing applications require 
 real-time image processing and analysis. It is very well known that image processing algorithms are 
 resource-intensive and time-consuming.  Although CPUs nowadays are capable and powerful enough; 
