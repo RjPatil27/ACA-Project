@@ -30,7 +30,7 @@ Industrial Manufacturing uses Digital Image Processing. Many image processing ap
 real-time image processing and analysis. It is very well known that image processing algorithms are \
 resource-intensive and time-consuming.  Although CPUs nowadays are capable and powerful enough; \
 performing image processing on a single-core CPU is uneconomical. For the last few years, \
-there has been a new trend of  using multi-core architecture for performing image processing by \ 
+there has been a new trend of  using multi-core architecture for performing image processing by \n
 exploiting parallelism in algorithms. The increasing computing power and programmability of \
 multi-core architectures offer promising opportunities for parallelizing image processing algorithms. \ 
 Significant performance gains over traditional CPU implementations can be achieved by taking advantage \
