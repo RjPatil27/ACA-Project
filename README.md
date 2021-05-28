@@ -24,8 +24,9 @@ Baltimore, Maryland
 nilayf1@umbc.edu
 ```
 ## Abstract
+---
 Various industries such as Computer Vision, Video Processing, Microscopic Imaging, Security Systems, \
-Industrial Manufacturing uses Digital Image Processing. Many image processing applications require 
+Industrial Manufacturing uses Digital Image Processing. Many image processing applications require \
 real-time image processing and analysis. It is very well known that image processing algorithms are 
 resource-intensive and time-consuming.  Although CPUs nowadays are capable and powerful enough; 
 performing image processing on a single-core CPU is uneconomical. For the last few years, 
@@ -41,6 +42,8 @@ CPU, and the GPU-based approaches for image processing. Finally, this report wil
 experimental analysis of the performance of different image processing algorithms by using
 the approaches mentioned above. Index Terms—Image Processing, Image Processing algorithm, Single-core, 
 Multi-core, GPU, CUDA, NVIDIA, OpenCV, Multi-Processing, Computer architecture. 
+
+---
 
 ### I. INTRODUCTION
 ```
