@@ -92,7 +92,7 @@ and energy-efficient implementations of image algorithms.
 ---
 
 ### III. DIGITAL IMAGE PROCESSING
-```
+---
 Digital image processing is the method of manipulating
 digital images using a computer. It is a signal and systems
 sub-field that focuses primarily on images. DIP focuses on
@@ -102,7 +102,7 @@ images using powerful algorithms to produce an image as an
 output. Adobe Photo-shop is the most famous example. It is
 one of the most commonly used applications for digital image
 processing.
-```
+---
 
 ```
 The following are the critical stages of image processing:
