@@ -121,6 +121,7 @@ digital image processing.
 
 ### A. WHAT IS AN IMAGE?
 
+---
 A spatial representation of a two-dimensional or three-
 dimensional scene is called an image. It’s a pixel array or ma-
 trix that’s organized in columns and rows. A two-dimensional
@@ -128,6 +129,8 @@ array of rows and columns is also known as an image. Picture
 components, image elements, and pixels make up a digital
 image. A pixel is the most common unit of measurement for
 the aspects of a digital image.
+
+---
 
 ### B. IMAGE AS A MATRIX
 
