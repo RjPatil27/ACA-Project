@@ -134,6 +134,7 @@ the aspects of a digital image.
 
 ### B. IMAGE AS A MATRIX
 
+---
 In a screen, a digital gray-scale image is represented by
 a pixel matrix. One matrix element—an integer from the
 set—presents each pixel of such an image. Pixel presentation
@@ -142,6 +143,8 @@ els) to 255 (white pixels) (white pixels). The matrix represents
 the color black as 0 and the color white as 1 in a binary image
 of just two colors, i.e., black and white.
 We have given a RGB matrix format in [fig 1],
+
+---
 
 ```
 Fig. 1. Matrix example of Image
