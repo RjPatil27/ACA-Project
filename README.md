@@ -151,9 +151,9 @@ Fig. 1. Matrix example of Image
 ```
 ### C. IMAGES TYPES
 
-```
+---
 Images in various types,
-```
+
 - Binary Image - A binary image is made up of just two
     pixels: 0 and 1. The numbers 0 and 1 reflect black and
     white, respectively. Monochrome is another name for this.
@@ -165,6 +165,8 @@ Images in various types,
 - 16 Bit Color Format – This format has a wide range of
     colors and is referred to as a High Color Format. Color
     distribution differs from that of a Gray-scale picture.
+
+---
 
 ### D. PHASES OF IMAGE PROCESSING
 
