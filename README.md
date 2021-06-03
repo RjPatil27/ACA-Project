@@ -103,9 +103,6 @@ output. Adobe Photo-shop is the most famous example. It is
 one of the most commonly used applications for digital image
 processing.
 
----
-
----
 The following are the critical stages of image processing:
 - Using image acquisition methods to import the image.
 - Analyzing and editing the image.
