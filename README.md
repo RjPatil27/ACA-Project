@@ -167,10 +167,9 @@ Images in various types,
 
 ### D. PHASES OF IMAGE PROCESSING
 
-```
+---
 The following are the basic steps in digital image process-
 ing:
-```
 - Image Acquisition – Image acquisition entails pre-
     processing such as scaling and other adjustments. It may
     be as easy as receiving an image that has already been
@@ -220,12 +219,13 @@ ing:
     assigning a label to an object based on its descriptors,
     such as ”apple.”
 
-
+---
 ### E. DIP PROCESS FLOW
-```
+---
 The simple diagram for understanding the digital image
 processing working flow is given in [fig 2],
-```
+
+---
 ```
 Fig. 2. Digital Image Processing process flow
 ```
