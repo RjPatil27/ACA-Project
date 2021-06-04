@@ -242,6 +242,8 @@ does not view the environment similarly as optical detectors
 do, and display systems add to the noise and bandwidth
 constraints.
 
+---
+
 ## IV. IMAGE PROCESSING ALGORITHM
 As we understand the Digital Image Processing concept and
 why it is necessary for the market. In this section, we will get
