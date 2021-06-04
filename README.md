@@ -45,7 +45,7 @@ Multi-core, GPU, CUDA, NVIDIA, OpenCV, Multi-Processing, Computer architecture.
 
 ---
 
-### I. INTRODUCTION
+## I. INTRODUCTION
 ---
 Image processing algorithms are well-known for being computationally expensive 
 and time-consuming. Although central processing units (CPUs) nowadays are capable
@@ -75,7 +75,7 @@ a single-core approach and a multi-core approach.
 
 ---
 
-### II. MOTIVATION
+## II. MOTIVATION
 ---
 
 As mentioned earlier, CPUs nowadays are powerful and
@@ -91,7 +91,7 @@ and energy-efficient implementations of image algorithms.
 
 ---
 
-### III. DIGITAL IMAGE PROCESSING
+## III. DIGITAL IMAGE PROCESSING
 ---
 Digital image processing is the method of manipulating
 digital images using a computer. It is a signal and systems
@@ -232,6 +232,7 @@ Fig. 2. Digital Image Processing process flow
 
 ### F. NEED OF AN DIGITAL IMAGE PROCESSING?
 
+---
 Image processing is often regarded as arbitrary image ma-
 nipulation to meet an aesthetic ideal or support a preferred
 truth. On the other hand, image processing is more precisely
@@ -241,13 +242,13 @@ does not view the environment similarly as optical detectors
 do, and display systems add to the noise and bandwidth
 constraints.
 
-IV. IMAGE PROCESSING ALGORITHM
+## IV. IMAGE PROCESSING ALGORITHM
 As we understand the Digital Image Processing concept and
 why it is necessary for the market. In this section, we will get
 to know about few image processing algorithms which we
 used for analysis purpose in our project.
 
-A. EDGE DETECTION ALGORITHM
+### A. EDGE DETECTION ALGORITHM
 
 One of the most basic operations in image processing is
 edge detection. It assists you in reducing the amount of data
@@ -257,7 +258,7 @@ For our research, we used four different edge detection
 algorithms. Below, we’ve covered a fundamental feature of
 these algorithms.
 
-1) CANNY EDGE DETECTION ALGORITHM:The Canny
+#### 1) CANNY EDGE DETECTION ALGORITHM:The Canny
 Edge detector is an edge detection algorithm that detects a
 large range of edges in images using a multi-stage algorithm.
 It was founded in 1986 by John F. Canny.
