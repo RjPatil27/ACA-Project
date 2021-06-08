@@ -245,12 +245,17 @@ constraints.
 ---
 
 ## IV. IMAGE PROCESSING ALGORITHM
+---
 As we understand the Digital Image Processing concept and
 why it is necessary for the market. In this section, we will get
 to know about few image processing algorithms which we
 used for analysis purpose in our project.
 
+---
+
 ### A. EDGE DETECTION ALGORITHM
+
+---
 
 One of the most basic operations in image processing is
 edge detection. It assists you in reducing the amount of data
@@ -259,6 +264,8 @@ aspect.
 For our research, we used four different edge detection
 algorithms. Below, we’ve covered a fundamental feature of
 these algorithms.
+
+---
 
 #### 1) CANNY EDGE DETECTION ALGORITHM:The Canny
 Edge detector is an edge detection algorithm that detects a
