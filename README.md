@@ -267,8 +267,8 @@ these algorithms.
 
 ---
 
-#### 1) CANNY EDGE DETECTION ALGORITHM:The Canny
-Edge detector is an edge detection algorithm that detects a
+#### 1) CANNY EDGE DETECTION ALGORITHM:
+The Canny Edge detector is an edge detection algorithm that detects a
 large range of edges in images using a multi-stage algorithm.
 It was founded in 1986 by John F. Canny.
 Canny edge detection is a technique for extracting useful
@@ -279,12 +279,14 @@ discovered that the criteria for using edge detection on a
 variety of vision systems are remarkably similar. As a result,
 an edge detection solution that meets these criteria can be used
 in a variety of scenarios.
+
 The Canny edge detection algorithm is composed of 5 steps:
 1) Noise reduction
 2) Gradient calculation
 3) Non-maximum suppression
 4) Double threshold
 5) Edge Tracking by Hysteresis
+
 After applying these steps, [fig 3] shows original image and
 [fig 4] shows canny image output.
 
@@ -294,13 +296,14 @@ Fig. 3. ORIGINAL IMAGE
 ```
 Fig. 4. CANNY IMAGE OUTPUT
 ```
-```
+
 The algorithm is based on gray-scale images, which is a
 significant point to note. As a result, the image must first be
 converted to gray-scale images. As a result, before proceeding
 with the above steps, you must first convert the picture to
 gray-scale.
-```
+
+---
 
 2) SOBEL EDGE DETECTION ALGORITHM:The Sobel
 ```
