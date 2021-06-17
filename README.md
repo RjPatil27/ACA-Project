@@ -143,6 +143,7 @@ We have given a RGB matrix format in [fig 1],
 
 ---
 
+![img1](https://github.com/RjPatil27/ACA-Project/blob/main/Images/Color%20Image%20formula.png)
 ```
 Fig. 1. Matrix example of Image
 ```
