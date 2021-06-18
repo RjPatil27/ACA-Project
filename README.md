@@ -227,6 +227,7 @@ The simple diagram for understanding the digital image
 processing working flow is given in [fig 2],
 
 ---
+![img2](https://github.com/RjPatil27/ACA-Project/blob/main/Images/DIP%20Process%20Flow.png)
 ```
 Fig. 2. Digital Image Processing process flow
 ```
