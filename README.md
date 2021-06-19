@@ -292,9 +292,11 @@ The Canny edge detection algorithm is composed of 5 steps:
 After applying these steps, [fig 3] shows original image and
 [fig 4] shows canny image output.
 
+![img3](https://github.com/RjPatil27/ACA-Project/blob/main/Images/bike1.jpg)
 ```
 Fig. 3. ORIGINAL IMAGE
 ```
+![img4](https://github.com/RjPatil27/ACA-Project/blob/main/Images/OP1.jpg)
 ```
 Fig. 4. CANNY IMAGE OUTPUT
 ```
