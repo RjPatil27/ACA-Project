@@ -310,7 +310,7 @@ gray-scale.
 ---
 
 #### 2) SOBEL EDGE DETECTION ALGORITHM:The Sobel
-```
+---
 Edge Detection algorithm is an image edge detection algo-
 rithm that employs the Sobel operator. Irwin Sobel and Gary
 Feldman are the creators. The Sobel operator is based on
@@ -326,7 +326,8 @@ mate them:
 The derivative along the X axis is approximated by the
 kernel on the left. The Y axis is represented by the one on
 the right.
-```
+
+---
 
 ```
 Fig. 5. Sobel operator horizontal and vertical kernel example
