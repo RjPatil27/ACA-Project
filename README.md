@@ -270,6 +270,7 @@ these algorithms.
 ---
 
 #### 1) CANNY EDGE DETECTION ALGORITHM:
+---
 The Canny Edge detector is an edge detection algorithm that detects a
 large range of edges in images using a multi-stage algorithm.
 It was founded in 1986 by John F. Canny.
