@@ -330,6 +330,7 @@ the right.
 
 ---
 
+![img5](https://github.com/RjPatil27/ACA-Project/blob/main/Images/sobel%20kernel.jpg)
 ```
 Fig. 5. Sobel operator horizontal and vertical kernel example
 ```
