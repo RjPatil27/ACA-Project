@@ -345,6 +345,7 @@ arctan(Gy/Gx) (3)
 After applying these steps, we will get following result as
 output [fig 6]:
 
+![img6](https://github.com/RjPatil27/ACA-Project/blob/main/Images/SobelOP_1.jpg)
 ```
 Fig. 6. SOBEL IMAGE OUTPUT
 ```
