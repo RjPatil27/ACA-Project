@@ -310,10 +310,10 @@ gray-scale.
 
 ---
 
-#### 2) SOBEL EDGE DETECTION ALGORITHM:The Sobel
+#### 2) SOBEL EDGE DETECTION ALGORITHM:
 ---
-Edge Detection algorithm is an image edge detection algo-
-rithm that employs the Sobel operator. Irwin Sobel and Gary
+The Sobel Edge Detection algorithm is an image edge detection 
+algorithm that employs the Sobel operator. Irwin Sobel and Gary
 Feldman are the creators. The Sobel operator is based on
 convolving the image in the horizontal and vertical directions
 with a thin, separable, integer-valued filter, and thus is com-
