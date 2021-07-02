@@ -353,7 +353,7 @@ Gray images are also compatible with the Sobel Edge
 detection algorithm. As a result, before proceeding with the
 above steps, you must first convert the picture to gray-scale.
 
-3) LAPLACIAN EDGE DETECTION ALGORITHM: The
+#### 3) LAPLACIAN EDGE DETECTION ALGORITHM: The
 ```
 Laplacian Edge Detection algorithm uses the Laplacian Oper-
 ator to detect edges. Second derivative operators are used to
