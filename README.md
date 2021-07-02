@@ -383,7 +383,7 @@ Laplacians are computationally faster and can achieve
 excellent results in certain cases.
 ```
 
-4) PREWITT EDGE DETECTION ALGORITHM:
+#### 4) PREWITT EDGE DETECTION ALGORITHM:
 ```
 The Prewitt Edge Detection Algorithm is an image edge detection
 algorithm that employs the Prewitt operator. The Prewitt
