@@ -354,7 +354,7 @@ detection algorithm. As a result, before proceeding with the
 above steps, you must first convert the picture to gray-scale.
 
 #### 3) LAPLACIAN EDGE DETECTION ALGORITHM: The
-```
+---
 Laplacian Edge Detection algorithm uses the Laplacian Oper-
 ator to detect edges. Second derivative operators are used to
 detect Laplacian edges. It only has one kernel. The Laplacian
@@ -363,18 +363,20 @@ The kernel used in Laplacian edge detection is shown below
 in [fig 7],
 We can use one of these, or we can construct a 5*5 kernel
 for a better approximation. Due to the fact that we are dealing
-```
+
+---
 ```
 Fig. 7. Laplacian kernels example
 ```
-```
+---
 with second order derivatives, the Laplacian edge is highly
 sensitive to noise. Normally, we’d like to minimize noise;
 maybe we can use Gaussian blur in this algorithm to overcome
 this limitation.
 After applying all required steps, we can see the output of
 original image below in [fig 8],
-```
+
+---
 ```
 Fig. 8. LAPLACIAN IMAGE OUTPUT
 ```
