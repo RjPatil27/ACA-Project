@@ -1,4 +1,4 @@
-# ACA-Project
+# Advanced Computer Architecture -Project
 
 # Exploiting Parallelism in Image Processing Algorithms
 
