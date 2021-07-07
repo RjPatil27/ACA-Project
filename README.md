@@ -386,7 +386,7 @@ excellent results in certain cases.
 ```
 
 #### 4) PREWITT EDGE DETECTION ALGORITHM:
-```
+---
 The Prewitt Edge Detection Algorithm is an image edge detection
 algorithm that employs the Prewitt operator. The Prewitt
 operator distinguishes between two types of edges: horizontal
@@ -404,11 +404,12 @@ marks:
 - More weight translates to better edge detection.
 The Prewitt operator gives us two masks: one for detecting
 horizontal edges and the other for detecting vertical edges.
-```
+
+---
+---
 VERTICAL DIRECTION MASK:
 
 Example of vertical direction mask is given in [fig 9].
-```
 ```
 Fig. 9. Vertical direction mask example
 ```
@@ -425,6 +426,8 @@ original values, instead calculating the difference between the
 right and left pixel values along that edge. The edge strength
 is increased, and the picture is enhanced in comparison to the
 original.
+
+---
 
 HORIZONTAL DIRECTION MASK:
 
