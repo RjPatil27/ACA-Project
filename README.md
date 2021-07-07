@@ -428,7 +428,7 @@ is increased, and the picture is enhanced in comparison to the
 original.
 
 ---
-
+---
 HORIZONTAL DIRECTION MASK:
 
 Example of horizontal direction mask is given in [fig
@@ -439,8 +439,6 @@ Fig. 10. Horizontal direction mask example
 ```
 Since the zero’s column is oriented horizontally, the above
 mask can find edges in that direction. When you apply this
-
-```
 mask to an image, you will notice that the image has prominent
 horizontal edges.
 WORKING OF HORIZONTAL MASK: The horizontal
@@ -459,14 +457,16 @@ because both of the above masks are standardized and their
 values cannot be changed. We will use original image from
 [fig 3] to see output of Vertical and Horizontal masks in [fig
 11],
-```
+
 ```
 Fig. 11. Vertical and Horizontal Mask Output
-```
 ```
 If we combine both the vertical mask and horizontal mask
 image, we will get the output of Prewitt Edge detection
 algorithm which is shown in [fig 12].
+
+---
+
 B. SMOOTHING ALGORITHM
 Smoothing algorithms are either global or local in that they
 take data and filter out noise over a larger, global series or a
