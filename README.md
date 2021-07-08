@@ -328,12 +328,11 @@ The derivative along the X axis is approximated by the
 kernel on the left. The Y axis is represented by the one on
 the right.
 
----
-
 ![img5](https://github.com/RjPatil27/ACA-Project/blob/main/Images/sobel%20kernel.jpg)
 ```
 Fig. 5. Sobel operator horizontal and vertical kernel example
 ```
+
 We can calculate the following using this data:
 1) Magnitude or “strength” of the edges
 (G^2 x+G^2 y) (1)
@@ -349,6 +348,7 @@ output [fig 6]:
 ```
 Fig. 6. SOBEL IMAGE OUTPUT
 ```
+
 Gray images are also compatible with the Sobel Edge
 detection algorithm. As a result, before proceeding with the
 above steps, you must first convert the picture to gray-scale.
