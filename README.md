@@ -382,10 +382,11 @@ original image below in [fig 8],
 ```
 Fig. 8. LAPLACIAN IMAGE OUTPUT
 ```
-```
+
 Laplacians are computationally faster and can achieve
 excellent results in certain cases.
-```
+
+---
 
 #### 4) PREWITT EDGE DETECTION ALGORITHM:
 ---
