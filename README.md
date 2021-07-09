@@ -379,6 +379,7 @@ After applying all required steps, we can see the output of
 original image below in [fig 8],
 
 ---
+![img8](https://github.com/RjPatil27/ACA-Project/blob/main/Images/Laplacian_1.jpg)
 ```
 Fig. 8. LAPLACIAN IMAGE OUTPUT
 ```
