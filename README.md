@@ -367,6 +367,7 @@ We can use one of these, or we can construct a 5*5 kernel
 for a better approximation. Due to the fact that we are dealing
 
 ---
+![img7](https://github.com/RjPatil27/ACA-Project/blob/main/Images/laplacian%20kernel.jpg)
 ```
 Fig. 7. Laplacian kernels example
 ```
