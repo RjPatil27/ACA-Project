@@ -415,6 +415,7 @@ horizontal edges and the other for detecting vertical edges.
 VERTICAL DIRECTION MASK:
 
 Example of vertical direction mask is given in [fig 9].
+
 ![img9](https://github.com/RjPatil27/ACA-Project/blob/main/Images/VERTICALMASK.png)
 ```
 Fig. 9. Vertical direction mask example
