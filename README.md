@@ -440,6 +440,7 @@ HORIZONTAL DIRECTION MASK:
 Example of horizontal direction mask is given in [fig
 10].
 
+![img10](https://github.com/RjPatil27/ACA-Project/blob/main/Images/HORIZONTAL%20MASK.png)
 ```
 Fig. 10. Horizontal direction mask example
 ```
