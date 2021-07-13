@@ -473,17 +473,16 @@ If we combine both the vertical mask and horizontal mask
 image, we will get the output of Prewitt Edge detection
 algorithm which is shown in [fig 12].
 
----
-
-B. SMOOTHING ALGORITHM
-Smoothing algorithms are either global or local in that they
-take data and filter out noise over a larger, global series or a
-smaller, local series by summarizing a local or global domain
-```
-
 ```
 Fig. 12. PREWITT EDGE OUTPUT
 ```
+---
+
+### B. SMOOTHING ALGORITHM
+---
+Smoothing algorithms are either global or local in that they
+take data and filter out noise over a larger, global series or a
+smaller, local series by summarizing a local or global domain
 of Y, resulting in a smooth estimate of the underlying data.
 The smoother you can use is determined by the goal of your
 study and the peculiarities of your results.
