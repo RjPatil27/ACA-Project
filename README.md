@@ -466,6 +466,8 @@ values cannot be changed. We will use original image from
 [fig 3] to see output of Vertical and Horizontal masks in [fig
 11],
 
+![img11]()
+![img12]()
 ```
 Fig. 11. Vertical and Horizontal Mask Output
 ```
