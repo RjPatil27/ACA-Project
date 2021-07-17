@@ -467,7 +467,7 @@ values cannot be changed. We will use original image from
 11],
 
 ![img11](https://github.com/RjPatil27/ACA-Project/blob/main/Images/VerticalmaskOP_1.jpg)
-![img12]()
+![img12](https://github.com/RjPatil27/ACA-Project/blob/main/Images/HorizontalmaskOP_1.jpg)
 ```
 Fig. 11. Vertical and Horizontal Mask Output
 ```
