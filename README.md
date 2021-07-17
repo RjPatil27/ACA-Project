@@ -491,8 +491,8 @@ study and the peculiarities of your results.
 We have implemented few smoothing algorithms for our
 analysis purpose which are explained in this project report.
 
-1) GAUSSIAN BLUR ALGORITHM:A Gaussian Filter is
-a low-pass filter that is used to distort image regions and
+#### 1) GAUSSIAN BLUR ALGORITHM:
+A Gaussian Filter is a low-pass filter that is used to distort image regions and
 minimize noise (high-frequency components). The low-pass
 filter is implemented as an Odd sized symmetric kernel which
 passes through each pixel of the area of interest to achieve
@@ -522,9 +522,9 @@ Fig. 14. Gaussian Equation
 ```
 Fig. 15. Gaussian Blur Output
 ```
-```
-2) MEDIAN BLUR ALGORITHM: For blurring images,
-the Median Blur algorithm employs a median filter. In most
+---
+#### 2) MEDIAN BLUR ALGORITHM: 
+For blurring images, the Median Blur algorithm employs a median filter. In most
 cases, the median filter is used to minimize image noise.
 It’s similar to the mean filter. However, it also does a better
 job of maintaining useful information in the picture than the
@@ -537,7 +537,7 @@ because it retains edges while suppressing noises under certain
 conditions, and it also has applications in signal processing.
 We can see the output of Median Blur algorithm in the [fig
 16].
-```
+
 ```
 Fig. 16. Median Blur Output
 ```
@@ -548,7 +548,8 @@ the median, all of the values in the neighborhood must be
 sorted into numerical order, which takes time even with a
 fast-sorting algorithm like quick-sort.
 
-3) BILATERAL BLUR ALGORITHM:A bilateral filter is a
+---
+#### 3) BILATERAL BLUR ALGORITHM:A bilateral filter is a
 non-linear image smoothing filter that preserves edges while
 minimizing noise. It uses a weighted average of intensity
 values from nearby pixels to replace the intensity of each pixel.
