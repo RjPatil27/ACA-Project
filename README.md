@@ -524,6 +524,7 @@ Fig. 15. Gaussian Blur Output
 ```
 ---
 #### 2) MEDIAN BLUR ALGORITHM: 
+---
 For blurring images, the Median Blur algorithm employs a median filter. In most
 cases, the median filter is used to minimize image noise.
 It’s similar to the mean filter. However, it also does a better
@@ -549,10 +550,11 @@ sorted into numerical order, which takes time even with a
 fast-sorting algorithm like quick-sort.
 
 ---
-#### 3) BILATERAL BLUR ALGORITHM:A bilateral filter is a
-non-linear image smoothing filter that preserves edges while
-minimizing noise. It uses a weighted average of intensity
-values from nearby pixels to replace the intensity of each pixel.
+---
+#### 3) BILATERAL BLUR ALGORITHM:
+A bilateral filter is a non-linear image smoothing filter that 
+preserves edges while minimizing noise. It uses a weighted average 
+of intensity values from nearby pixels to replace the intensity of each pixel.
 In the case of a bilateral filter, an additional edge term is
 needed in addition to the Gaussian blur technique which is
 shown in the [fig 17].
@@ -566,7 +568,11 @@ The output of bilateral blur algorithm can be seen in the
 ```
 Fig. 18. Bilateral blur algorithm output
 ```
+---
+
 ### V. APPROACHES USED
+
+---
 
 For the analysis purpose, we have used a total of three
 approaches,
@@ -634,8 +640,8 @@ by using Python language.
 Technology Used: Multiprocessing, OpenCV, pathlib2,
 numpy, matplotlib, scipy, imageio, time, OS, argparse, imutils
 ```
-```
-1) MULTIPROCESSING LIBRARY:Multiprocessing is the
+
+#### 1) MULTIPROCESSING LIBRARY:Multiprocessing is the
 ability of the system to run several processes at the same
 time. An extensive process is divided into chunks of processes
 where each process runs independently in a multiprocessing
