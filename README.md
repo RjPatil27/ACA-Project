@@ -491,6 +491,8 @@ study and the peculiarities of your results.
 We have implemented few smoothing algorithms for our
 analysis purpose which are explained in this project report.
 
+---
+---
 #### 1) GAUSSIAN BLUR ALGORITHM:
 A Gaussian Filter is a low-pass filter that is used to distort image regions and
 minimize noise (high-frequency components). The low-pass
@@ -522,6 +524,7 @@ Fig. 14. Gaussian Equation
 ```
 Fig. 15. Gaussian Blur Output
 ```
+---
 ---
 #### 2) MEDIAN BLUR ALGORITHM: 
 ---
@@ -569,9 +572,7 @@ The output of bilateral blur algorithm can be seen in the
 Fig. 18. Bilateral blur algorithm output
 ```
 ---
-
 ### V. APPROACHES USED
-
 ---
 
 For the analysis purpose, we have used a total of three
@@ -591,9 +592,10 @@ puter vision, machine learning, and image processing, and it
 now plays a critical role in real-time operations, which are
 essential in today’s systems [13].
 
-### A. SINGLE-CORE
+---
 
-```
+### A. SINGLE-CORE
+---
 A single-core processor is a microprocessor with only one
 core on a chip and can only run and compute one thread at
 a time. Through doing so, the single-core machine absorbs a
@@ -609,14 +611,15 @@ operating system assigns the Python program to a single core
 until it gets completed. That is all well and good, but we
 only utilize a small amount of our true processing power.
 Technology Used: OpenCV, pathlib2, numpy, matplotlib,
-scipy, imagio
-```
-```
+scipy, imagio.
 For the analysis part, we have used three systems mentioned
 in the system used section. Moreover, for single-core analysis
 purposes, we have implemented mentioned image processing
 algorithms on a single core.
-B. MULTI-CORE
+
+---
+---
+### B. MULTI-CORE
 In Parallel processing, many processes are carried out
 simultaneously. Significant problems are divided into smaller
 chunks that can be executed simultaneously at the same time.
@@ -639,10 +642,11 @@ CPU parallelism of image processing algorithms is achieved
 by using Python language.
 Technology Used: Multiprocessing, OpenCV, pathlib2,
 numpy, matplotlib, scipy, imageio, time, OS, argparse, imutils
-```
 
-#### 1) MULTIPROCESSING LIBRARY:Multiprocessing is the
-ability of the system to run several processes at the same
+---
+
+#### 1) MULTIPROCESSING LIBRARY:
+Multiprocessing is the ability of the system to run several processes at the same
 time. An extensive process is divided into chunks of processes
 where each process runs independently in a multiprocessing
 system. The OS allocates processes to the processors, which
