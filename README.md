@@ -475,6 +475,7 @@ If we combine both the vertical mask and horizontal mask
 image, we will get the output of Prewitt Edge detection
 algorithm which is shown in [fig 12].
 
+![img13](https://github.com/RjPatil27/ACA-Project/blob/main/Images/PrewittOP_1.jpg)
 ```
 Fig. 12. PREWITT EDGE OUTPUT
 ```
