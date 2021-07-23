@@ -519,6 +519,7 @@ values. We’ll get a performance of the original image below
 after we’ve completed all of the necessary steps. The Output
 of Gaussian Blur Algorithm is given in [fig 15].
 
+![img15](https://github.com/RjPatil27/ACA-Project/blob/main/Images/Gaussian%20Equation.png)
 ```
 Fig. 14. Gaussian Equation
 ```
