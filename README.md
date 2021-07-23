@@ -508,8 +508,9 @@ For example, a 3*3 Gaussian Kernel approximation with
 standard deviation = 1 can be calculated using the Gaussian
 Blur process, as shown in [fig 13].
 
+![img14](https://github.com/RjPatil27/ACA-Project/blob/main/Images/Gaussian%20Kernel.png)
 ```
-Fig. 13. Gaussian Blur Output
+Fig. 13. Gaussian Kernel example
 ```
 The Gaussian equation, which is given in [fig 14], is used
 to compute the values within the kernel:
