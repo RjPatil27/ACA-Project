@@ -524,6 +524,7 @@ of Gaussian Blur Algorithm is given in [fig 15].
 ```
 Fig. 14. Gaussian Equation
 ```
+![img16](https://github.com/RjPatil27/ACA-Project/blob/main/Images/GaussianOP_1.jpg)
 ```
 Fig. 15. Gaussian Blur Output
 ```
