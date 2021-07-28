@@ -546,6 +546,7 @@ conditions, and it also has applications in signal processing.
 We can see the output of Median Blur algorithm in the [fig
 16].
 
+![img17](https://github.com/RjPatil27/ACA-Project/blob/main/Images/MedianOP_1.jpg)
 ```
 Fig. 16. Median Blur Output
 ```
