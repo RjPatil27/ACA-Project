@@ -9,6 +9,7 @@ import cv2
 import matplotlib.pyplot as plt
 import time
 def process(image):
+# bilateralFilter() function applies Bilateral Blur algorithm on image.
     bilateral = cv2.bilateralFilter(image, 7, 75, 75)
     return bilateral
     
