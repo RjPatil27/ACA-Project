@@ -9,6 +9,7 @@ import cv2
 import matplotlib.pyplot as plt
 import time
 def process(image):
+# GaussianBlur() function convert image into Blur image which reduce noise from the image.
     Gaussian = cv2.GaussianBlur(image,(3,3),0)
     return Gaussian
     
