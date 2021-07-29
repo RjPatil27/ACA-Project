@@ -9,8 +9,11 @@ import cv2
 import matplotlib.pyplot as plt
 import time
 def process(image):
+# cvtColor() function converts image to grayscale
     gray_img = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+# GaussianBlur() function convert image into Blur image which reduce noise from the image.
     blur_img = cv2.GaussianBlur(gray_img, (3, 3), 0)
+# Canny() function from OpenCV applies Canny algorithm on Gaussian Image.
     img_canny = cv2.Canny(blur_img,50,100)
     return img_canny
     
