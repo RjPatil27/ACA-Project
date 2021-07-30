@@ -9,8 +9,11 @@ import cv2
 import matplotlib.pyplot as plt
 import time
 def process(image):
+# cvtColor() function converts image to grayscale
     gray_img = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+# GaussianBlur() function convert image into Blur image which reduce noise from the image.
     blur_img = cv2.GaussianBlur(gray_img, (3, 3), 0)
+# Laplacian() function applies Laplacian edge algorithm on Gaussian blurred image.
     laplacian = cv2.Laplacian(blur_img, cv2.CV_64F)
     return laplacian
     
