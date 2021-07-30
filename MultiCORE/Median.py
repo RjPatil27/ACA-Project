@@ -9,6 +9,7 @@ import cv2
 import matplotlib.pyplot as plt
 import time
 def process(image):
+# medianBlur() function from OpenCV applies median Edge algorithm on image
     median = cv2.medianBlur(image, 3)
     return median
     
