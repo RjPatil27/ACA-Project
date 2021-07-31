@@ -10,9 +10,12 @@ import matplotlib.pyplot as plt
 import time
 def process(image):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+# GaussianBlur() function convert image into Blur image which reduce noise from the image.
     img_gaussian = cv2.GaussianBlur(gray, (3, 3), 0)
+# Horizontal direction mask and Vertical direction mask which goes as input to filter2D() function
     kernelx = np.array([[1, 1, 1], [0, 0, 0], [-1, -1, -1]])
     kernely = np.array([[-1, 0, 1], [-1, 0, 1], [-1, 0, 1]])
+# filter2D() function applies Prewitt edge algorithm on Gaussian blur image.
     img_prewittx = cv2.filter2D(img_gaussian, -1, kernelx)
     img_prewitty = cv2.filter2D(img_gaussian, -1, kernely)
     return  img_prewittx + img_prewitty
