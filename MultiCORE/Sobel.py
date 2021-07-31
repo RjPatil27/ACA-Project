@@ -9,8 +9,11 @@ import cv2
 import matplotlib.pyplot as plt
 import time
 def process(image):
+# cvtColor() function used to convert color image into Gray image
     gray_img = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+# GaussianBlur() function convert image into Blur image which reduce noise from the image.
     blur_img = cv2.GaussianBlur(gray_img, (3, 3), 0)
+# Sobel() function from OpenCV applies Sobel Edge algorithm on blurred image
     img_sobelx = cv2.Sobel(blur_img, cv2.CV_8U, 0, 1, ksize=3)
     img_sobely = cv2.Sobel(blur_img, cv2.CV_8U, 1, 0, ksize=3)
     img_sobel = img_sobelx + img_sobely
