@@ -651,6 +651,7 @@ numpy, matplotlib, scipy, imageio, time, OS, argparse, imutils
 ---
 
 #### 1) MULTIPROCESSING LIBRARY:
+---
 Multiprocessing is the ability of the system to run several processes at the same
 time. An extensive process is divided into chunks of processes
 where each process runs independently in a multiprocessing
@@ -658,10 +659,11 @@ system. The OS allocates processes to the processors, which
 in term improves the performance of the system. A Pool class
 is used to submit processes to individual core processors of
 the system.
-```
+
+---
 
 ### 2) IMPLEMENTATION PROCEDURE:
-
+---
 - Taking dataset and number of cores as input: The dataset
     used in this application is CALTECH-101. The dataset
     consists of 9144 images. Python OS module has functions
@@ -687,10 +689,11 @@ Fig. 19. Dataset and number of core as input
     plication defines chunk generator in parallelhashing.py
     for splitting of the dataset into N equal-sized chunks [fig
     20].
-
+---
 ```
 Fig. 20. Split Dataset
 ```
+---
 - Create Pool of processes based on number of cores: The
     application distributes the processing of the dataset across
     our system bus. The Pool class creates the Python pro-
