@@ -577,7 +577,7 @@ The output of bilateral blur algorithm can be seen in the
 Fig. 18. Bilateral blur algorithm output
 ```
 ---
-### V. APPROACHES USED
+## V. APPROACHES USED
 ---
 
 For the analysis purpose, we have used a total of three
@@ -662,7 +662,7 @@ the system.
 
 ---
 
-### 2) IMPLEMENTATION PROCEDURE:
+#### 2) IMPLEMENTATION PROCEDURE:
 ---
 - Taking dataset and number of cores as input: The dataset
     used in this application is CALTECH-101. The dataset
