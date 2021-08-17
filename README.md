@@ -567,6 +567,7 @@ In the case of a bilateral filter, an additional edge term is
 needed in addition to the Gaussian blur technique which is
 shown in the [fig 17].
 
+![img18](https://github.com/RjPatil27/ACA-Project/blob/main/Images/Bilateral%20Equation.png)
 ```
 Fig. 17. Bilateral Equation
 ```
