@@ -736,8 +736,10 @@ Fig. 22. Assign chunk to Process
 - Utilization of Resources: It helps to use the maximum
     potential processing capacity of resources.
 
-```
-C. GPU
+
+### C. GPU
+---
+
 Many image processing operations iterate through the image
 from pixel to pixel, performing calculations based on the
 current pixel and eventually writing each computed value
@@ -766,7 +768,6 @@ capabilities. It is implemented using NVIDIA CUDA Runtime
 API and supports only NVIDIA GPUs. The OpenCV CUDA
 module is simple to use and requires no prior knowledge of
 CUDA [15].
-```
 
 Technology Used: OpenCV, OpenCV CUDA Module, CUDA,
 cuDNN, Python
@@ -783,7 +784,7 @@ approach used for Image Processing:
 - Apply image processing operation to Imaged
 - Copy Imaged back to Imageh
 
-VI. DATA-SET
+## VI. DATA-SET
 The CALTECH-101 dataset is being used to analyze project
 reports. Caltech-101 is a set of images of items from 101
 different groups. A single entity is assigned to each image.
@@ -795,7 +796,7 @@ Below is the link for the homepage and where this dataset
 can be found,
 CALTECH-101 DATASET
 
-VII. SYSTEM USED FOR ANALYSIS
+## VII. SYSTEM USED FOR ANALYSIS
 We have used a total of three systems for this project
 implementation and analysis. For future references, we are
 going to use System 1, System 2, and System 3 names; as for
@@ -811,7 +812,7 @@ RAM, etc., and Every system has graphical processing unit
 (GPU) functionality which also varies from system to system,
 as mentioned in the specifications.
 
-VIII. ANALYSIS
+## VIII. ANALYSIS
 This section explains the analysis of the above-mentioned
 seven image processing algorithm based on different system
 configurations, single-core, multi-core, and GPU core.
@@ -844,12 +845,9 @@ earlier section [fig 26] [fig 27].
 Fig. 26. System 2 analysis (time in seconds)
 ```
 ### C. SYSTEM 3 ANALYSIS
-
-```
+---
 This part provides the analysis of the various image pro-
 cessing algorithms done on System 3. We have provided the
-```
-
 ```
 Fig. 27. System 2 analysis graph
 ```
@@ -866,11 +864,13 @@ Fig. 29. System 3 analysis graph
 From all the graphs mentioned above, we can observe that
 a Single-core CPU takes much more time than Multi-core
 and GPU. These results show that the time used by image
-
-```
 processing algorithms is less when run in parallel with Multi-
 core CPU and GPU.
-D. MEDIAN BLUR ANALYSIS
+
+---
+
+### D. MEDIAN BLUR ANALYSIS
+---
 It is observed that the algorithm takes a considerable amount
 of time on GPU compared to the CPU while performing me-
 dian blur with OpenCV. If we keep the kernel size parameter
