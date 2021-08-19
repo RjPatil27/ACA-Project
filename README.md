@@ -573,6 +573,7 @@ Fig. 17. Bilateral Equation
 ```
 The output of bilateral blur algorithm can be seen in the
 [fig 18].
+![img19](https://github.com/RjPatil27/ACA-Project/blob/main/Images/BilateralOP_1.jpg)
 
 ```
 Fig. 18. Bilateral blur algorithm output
