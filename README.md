@@ -771,7 +771,7 @@ CUDA [15].
 
 Technology Used: OpenCV, OpenCV CUDA Module, CUDA,
 cuDNN, Python
-
+```
 The following steps represent the high-level GPU-based
 approach used for Image Processing:
 
@@ -783,6 +783,8 @@ approach used for Image Processing:
     OpenCV CUDA module
 - Apply image processing operation to Imaged
 - Copy Imaged back to Imageh
+```
+---
 
 ## VI. DATA-SET
 The CALTECH-101 dataset is being used to analyze project
