@@ -627,6 +627,7 @@ algorithms on a single core.
 ---
 ---
 ### B. MULTI-CORE
+---
 In Parallel processing, many processes are carried out
 simultaneously. Significant problems are divided into smaller
 chunks that can be executed simultaneously at the same time.
@@ -736,6 +737,7 @@ Fig. 22. Assign chunk to Process
 - Utilization of Resources: It helps to use the maximum
     potential processing capacity of resources.
 
+---
 
 ### C. GPU
 ---
