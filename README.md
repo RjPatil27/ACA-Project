@@ -789,6 +789,7 @@ approach used for Image Processing:
 ---
 
 ## VI. DATA-SET
+---
 The CALTECH-101 dataset is being used to analyze project
 reports. Caltech-101 is a set of images of items from 101
 different groups. A single entity is assigned to each image.
@@ -800,7 +801,10 @@ Below is the link for the homepage and where this dataset
 can be found,
 CALTECH-101 DATASET
 
+---
+
 ## VII. SYSTEM USED FOR ANALYSIS
+---
 We have used a total of three systems for this project
 implementation and analysis. For future references, we are
 going to use System 1, System 2, and System 3 names; as for
@@ -816,7 +820,10 @@ RAM, etc., and Every system has graphical processing unit
 (GPU) functionality which also varies from system to system,
 as mentioned in the specifications.
 
+---
+
 ## VIII. ANALYSIS
+---
 This section explains the analysis of the above-mentioned
 seven image processing algorithm based on different system
 configurations, single-core, multi-core, and GPU core.
@@ -871,8 +878,6 @@ and GPU. These results show that the time used by image
 processing algorithms is less when run in parallel with Multi-
 core CPU and GPU.
 
----
-
 ### D. MEDIAN BLUR ANALYSIS
 ---
 It is observed that the algorithm takes a considerable amount
@@ -883,13 +888,14 @@ same amount of time, but the time taken by the CPU both on
 Single-core and Multi-core increases gradually. This section
 provides a detailed analysis of the observation mentioned in
 figures [fig 30][fig 31][fig 32].
-```
+
 ```
 Fig. 30. System 1 kernel size analysis
 ```
 ```
 Fig. 31. System 2 kernel size analysis
 ```
+
 ### E. CPU, GPU AND MULTI-CORE ANALYSIS
 
 ```
