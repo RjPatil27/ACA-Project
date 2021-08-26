@@ -811,6 +811,7 @@ going to use System 1, System 2, and System 3 names; as for
 each system mentioned in [fig 23],
 Specification of systems:
 
+![img24](https://github.com/RjPatil27/ACA-Project/blob/main/Images/SYSTEM%20USED.png)
 ```
 Fig. 23. Systems used for analysis
 ```
