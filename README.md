@@ -830,20 +830,21 @@ seven image processing algorithm based on different system
 configurations, single-core, multi-core, and GPU core.
 
 ### A. SYSTEM 1 ANALYSIS
-
-```
+---
 This part provides the analysis of the various image pro-
 cessing algorithms done on System 1. We have provided the
 table and graph of the time consumed by each algorithm on
 System 1. The System 1 configurations are provided in the
 earlier section [fig 24] [fig 25].
-```
+
 ```
 Fig. 24. System 1 analysis (time in seconds)
 ```
 ```
 Fig. 25. System 1 analysis graph
 ```
+---
+
 ### B. SYSTEM 2 ANALYSIS
 
 ```
