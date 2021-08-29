@@ -837,9 +837,11 @@ table and graph of the time consumed by each algorithm on
 System 1. The System 1 configurations are provided in the
 earlier section [fig 24] [fig 25].
 
+![img25](https://github.com/RjPatil27/ACA-Project/blob/main/Images/NILAY%20ANALYSIS%20CHART.png)
 ```
 Fig. 24. System 1 analysis (time in seconds)
 ```
+![img26](https://github.com/RjPatil27/ACA-Project/blob/main/Images/NILAY%20ANALYSIS%20GRAPH.png)
 ```
 Fig. 25. System 1 analysis graph
 ```
