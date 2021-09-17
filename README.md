@@ -849,23 +849,26 @@ Fig. 25. System 1 analysis graph
 
 ### B. SYSTEM 2 ANALYSIS
 
-```
+---
 This part provides the analysis of the various image pro-
 cessing algorithms done on System 2. We have provided the
 table and graph of the time consumed by each algorithm on
 System 2. The System 2 configurations are provided in the
 earlier section [fig 26] [fig 27].
-```
+
 ```
 Fig. 26. System 2 analysis (time in seconds)
 ```
+
+```
+Fig. 27. System 2 analysis graph
+```
+---
+
 ### C. SYSTEM 3 ANALYSIS
 ---
 This part provides the analysis of the various image pro-
 cessing algorithms done on System 3. We have provided the
-```
-Fig. 27. System 2 analysis graph
-```
 table and graph of the time consumed by each algorithm on
 System 3. The System 3 configurations are provided in the
 earlier section [fig 28] [fig 29].
