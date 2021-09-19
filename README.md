@@ -885,6 +885,8 @@ and GPU. These results show that the time used by image
 processing algorithms is less when run in parallel with Multi-
 core CPU and GPU.
 
+---
+
 ### D. MEDIAN BLUR ANALYSIS
 ---
 It is observed that the algorithm takes a considerable amount
