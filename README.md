@@ -874,9 +874,11 @@ table and graph of the time consumed by each algorithm on
 System 3. The System 3 configurations are provided in the
 earlier section [fig 28] [fig 29].
 
+![img29](https://github.com/RjPatil27/ACA-Project/blob/main/Images/ROHIT%20ANALYSIS%20CHART.png)
 ```
 Fig. 28. System 3 analysis (time in seconds)
 ```
+![img30](https://github.com/RjPatil27/ACA-Project/blob/main/Images/ROHIT%20ANALYSIS%20GRAPH.png)
 ```
 Fig. 29. System 3 analysis graph
 ```
