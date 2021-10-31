@@ -856,10 +856,11 @@ table and graph of the time consumed by each algorithm on
 System 2. The System 2 configurations are provided in the
 earlier section [fig 26] [fig 27].
 
+![img27](https://github.com/RjPatil27/ACA-Project/blob/main/Images/RAJAT%20ANALYSIS%20CHART.png)
 ```
 Fig. 26. System 2 analysis (time in seconds)
 ```
-
+![img28](https://github.com/RjPatil27/ACA-Project/blob/main/Images/RAJAT%20ANALYSIS%20GRAPH.png)
 ```
 Fig. 27. System 2 analysis graph
 ```
